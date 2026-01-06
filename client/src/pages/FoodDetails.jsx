@@ -261,7 +261,7 @@ const FoodDetails = () => {
             <Rating value={3.5} />
             <Price>
               ₹{product?.price?.org} <Span>₹{product?.price?.mrp}</Span>{" "}
-              <Percent> (₹{product?.price?.off}% Off) </Percent>
+              <Percent> ({product?.price?.off}% Off) </Percent>
             </Price>
 
             <Desc>{product?.desc}</Desc>

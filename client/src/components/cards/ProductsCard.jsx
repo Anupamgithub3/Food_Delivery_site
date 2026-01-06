@@ -271,7 +271,7 @@ const ProductsCard = ({ product }) => {
         <Desc>{product?.desc}</Desc>
         <Price>
           ₹{product?.price?.org} <Span>₹{product?.price?.mrp}</Span>
-          <Percent> (₹{product?.price?.off}% Off) </Percent>
+          <Percent> ({product?.price?.off}% Off) </Percent>
         </Price>
       </Details>
     </Card>
